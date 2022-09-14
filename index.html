@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="icon" href="images/letter-r.png"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name.png"class="logo"></img>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, &nbsp;my name is</p>
+                <h1><span>Rahul</span> Tupsakhare</h1>
+                <p>I'am a Web Developer</p> 
+            </div>
+        </div>
+    </div>
+<!--About Us-------------------------------------------------->
+   <div id="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <h1>Developer <span> & Designer</span></h1>
+                <p>I'am a Passionate about Web Developer Having An Experience Of Building Web Application. 
+                   I can Provide clean code and pixel perfect design. I also make the the website more & 
+                   more interactive with web animations.A responsive design makes your website accessible to
+                   all users,regardless of their device.</p>
+                <div class="tab-titles">
+                <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">AcademicProject</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-content" id="skills">
+                    <ul>
+                        <li><span>UI/UX Designer</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Java Developer</span><br>Building Web Apps</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Watch Shop Management System</span><br>Front End: Visual Basic 6.0<br>Back End: MS Access 2013</li>
+                        <li><span>Car Rental System:</span><br>Front End: Visual Studio 2008<br>Back End: SQL Server Database 2008 ( .mdf)<br>Programming Language: Visual Basic Dot Net</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>BCA From Pune University</li>
+                        <li><span>2022</span><br>ONGOING ADD-ON COURSES: Full Stack Java Developer at NareshIT Institute, Hyderabad</li>
+                        <li><span>2022</span><br>Self Employed</li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div> 
+<!-----------------------services------------------------------------------------------------>
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa fa-code"></i>
+                <h2>Web Design</h2>
+                <p>We Provides you with a customized<br>website design that's perfect for your<br>business or personal site.</p>
+                <!---<a href="#">Learn more</a>-->
+            </div>
+            <div>
+                <i class="fa fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>We are specialized in creating <br>beautiful and smooth UI/UX designs that provide<br> better user experience by incorporating<br>effective collaboration,streamlined projects<br>which strive for better results.</p>
+                <!---<a href="#">Learn more</a>-->
+            </div>
+            <div>
+                <i class="fa fa-star-o"></i>
+                <h2>App Design</h2>
+                <p>Our web application development<br>services include design and development, testing,<br>and support and maintenance.</p>
+                 <!---<a href="#">Learn more</a>-->
+            </div>
+        </div>
+</div>
+    </div>
+</div>
+<!--------------------------------Portfolio---------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/w4.jpg">
+            <div class="layer">
+                <h3>Personal Website</h3>
+                <p>A well-designed website can help you form a good impression on your prospective customers. it can also help you nurture your leads and get more conversations.</p>
+                <!-----<a href="#"><i class="fa fa-external-link"></i></a> ---->
+            </div>
+        </div> 
+        <div class="work">
+            <img src="images/w5.jpg">
+            <div class="layer">
+                <h3>Car Rental System</h3>
+                <p>This project is designed so as to be used by Car Rental Company specializing in renting cars to customers.This is software wherein we can reduce the workload of the administrator of maintaining the activities manually.</p>
+                 <!-----<a href="#"><i class="fa fa-external-link"></i></a> ---->
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/w6.jpg">
+            <div class="layer">
+                <h3>watch shop Management System</h3>
+                <p>Watch shop management system provides and manages various activities in 
+                    watch shop. This is software wherein we can reduce the workload of the administrator
+                    of maintaining the activities manually.</p>
+                 <!-----<a href="#"><i class="fa fa-external-link"></i></a> ---->
+            </div>
+            </div>
+       </div>
+    </div>
+<!--------------------------------------contact--------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <br>
+                <br>
+                <p><i class="fa fa-paper-plane"></i>tupsakharerahul@gmail.com</p>
+                <br>
+                <br>
+                <p><i class="fa fa-phone-square"></i>7020448018</p>
+                <div class="socialicon">
+                    <a href="https://www.facebook.com/rahul.tupsakhare.1" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/RahulTupsakhar1?t=1Rqw2BvW5P2EQYUi5hwGmQ&s=08" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://instagram.com/_iamrahull.__?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rahul-tupsakhare-836923213" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                </div>
+                <a href="images/CV177.pdf" download class="btn">Download CV</a> 
+            </div>
+         <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+    <p>Copyright &#169; 2022 Rahul <i class="fa  fa-heart"></i> Powered by Rahul Tupsakhare</p>
+    </div>
+</div>
+<script>
+   var tablinks=document.getElementsByClassName("tab-links");
+   var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-links");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-content");
+    }
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(tabname).classList.add("active-content");
+}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzsYrE9a-Ifvc9-jtToeIYpGAwJHjHY91hUIh4wQ8rFo2guvyK95P-0NN7KBkDKXSyM5w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Message Sent Successfully"
+      setTimeout(function(){
+        msg.innerHTML=""
+      },5000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-20rem";
+    }
+</script>
+</body>
+</html>
